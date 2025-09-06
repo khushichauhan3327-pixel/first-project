@@ -1,2 +1,2 @@
 # first-project
-project
+project author name khushi
