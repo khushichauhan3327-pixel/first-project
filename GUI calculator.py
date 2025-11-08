@@ -50,7 +50,7 @@ result_label.config(font=('verdana',30,'bold'))
 
 btn7=Button(root,text='7',bg='#00a65a',fg='white',width=5,height=2,command=lambda : get_digit(7))
 btn7.grid(row=1,column=0)
-btn7.config(font=('verdana',16 ))
+btn7.config(font=('verdana',14))
 
 btn8=Button(root,text='8',bg='#00a65a',fg='white',width=5,height=2,command=lambda : get_digit(8))
 btn8.grid(row=1,column=1)
@@ -110,7 +110,7 @@ btn_equals.config(font=('verdana',14))
 
 btn_div=Button(root,text='/',bg='#00a65a',fg='white',width=5,height=2 ,command=lambda:get_operator('/'))
 btn_div.grid(row=4,column=3)
-btn_div.config(font=('verdana',15))
+btn_div.config(font=('verdana',14))
 
 
 root.mainloop()
